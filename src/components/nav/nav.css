@@ -1,0 +1,81 @@
+@media (width <=680px )
+{
+    .navbar
+    {
+        display: flex;
+        background-color: #e1e1e1;
+    }
+    .navbarMob
+    {
+        background-color: #e1e1e1;
+        height: 150px;   
+    }
+    .normalNav , .signIn
+    {
+        display: none;  
+    }
+    .normalNavMob
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .signInMOB
+    {
+        text-align: center;
+    }
+    .btnmob
+    {
+        background: transparent;
+        font-size: 25px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .active
+    {
+        color: tomato;
+        text-decoration: none;
+    }
+}
+@media (width >425px )
+{
+    .btnmob
+    {
+        display: none;  
+    }
+    .navbar
+    {
+        justify-content: space-between;
+        display: flex;
+        background-color: #e1e1e1;
+    }
+    .normalNav
+    {
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+    
+    }
+    .normalNav:first-child
+    {
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .active
+    {
+        color: tomato;
+        text-decoration: none;
+    }
+ 
+    .signIn
+    {
+        font-size: 20px;
+    
+    }
+    .signIn:last-child
+    {
+        margin-right: 25px;
+    }
+    
+}

@@ -1,0 +1,8 @@
+.showButton
+{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px dotted #e1e1e1;
+}
